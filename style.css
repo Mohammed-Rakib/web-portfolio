@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 100px;
+}
+.nameHighlite{
+    color: orange;
+}
+.main-page{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.text-area{
+    flex-basis: 50%;
+    margin-top: 79px;
+}
+.image{
+    flex-basis: 50%;
+}
+.image img{
+    width: 500px;
+    margin: 56px 100px;
+}
+.paragraph{
+    width: 500px;
+    margin: 20px 0;
+}
+h3 {
+    margin-top: 50px;
+}

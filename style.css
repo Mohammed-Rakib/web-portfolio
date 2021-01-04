@@ -119,7 +119,7 @@ img.side-image {
     margin: 0!important;
 }
 img.image-exp {
-    width: 274px;
+    width: 274px !important;
     top: 0;
     position: absolute;
 }

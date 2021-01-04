@@ -54,6 +54,11 @@ a{
     cursor: pointer;
     border-radius: 5%;
     font-weight: 700;
+    outline: none;
+    transition: background 0.7s;
+}
+a:hover{
+    background: black;
 }
 img.side-image {
     float: right;

@@ -6,9 +6,14 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.text-area h1{
     font-size: 50px;
     line-height: 100px;
+}
+.experience h1{
+    font-size: 40px;
+    line-height: 100px;
+    margin-left: 40px;
 }
 .container{
     background-image: url("images/top-banner.png");
@@ -59,4 +64,67 @@ img.side-image {
 }
 .container-final{
     position: relative;
+}
+.experience{
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+.main-Div{
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    margin: auto;
+    position: relative;
+}
+.right-col{
+    flex-basis: 47%;
+    box-shadow: 0px 0px 11px 4px #808080c2;
+    background: white;
+    border-radius: 1%;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.right-col h4{
+    color: orange;
+    margin-bottom:12px;
+    margin-left: 40px;
+}
+.right-col p{
+    width: 500px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.left-col{
+    flex-basis: 47%;
+    box-shadow: 0px 0px 11px 4px #808080c2;
+    background: white;
+    border-radius: 1%;
+    border-left: 7px solid;
+    border-image: linear-gradient(#1000ff,#2196F3,#00BCD4);
+    border-image-slice: 1;
+}
+.left-col h4{
+    color: orange;
+    margin-bottom:12px ;
+    margin-left: 40px;
+}
+.left-col p{
+    width: 500px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.main-header{
+    margin: 0!important;
+}
+img.image-exp {
+    width: 274px;
+    top: 0;
+    position: absolute;
+}
+h5 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }

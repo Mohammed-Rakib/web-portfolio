@@ -10,6 +10,11 @@ h1{
     font-size: 50px;
     line-height: 100px;
 }
+.container{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nameHighlite{
     color: orange;
 }
@@ -35,4 +40,23 @@ h1{
 }
 h3 {
     margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(orange,salmon,tomato);
+    cursor: pointer;
+    border-radius: 5%;
+    font-weight: 700;
+}
+img.side-image {
+    float: right;
+    /* margin-bottom: 200px; */
+    position: absolute;
+    right: 0;
+    top: 233px;
+}
+.container-final{
+    position: relative;
 }
